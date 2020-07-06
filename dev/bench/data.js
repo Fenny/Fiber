@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1594048501036,
+  "lastUpdate": 1594050356394,
   "repoUrl": "https://github.com/Fenny/fiber",
   "entries": {
     "Benchmark": [
@@ -61266,6 +61266,60 @@ window.BENCHMARK_DATA = {
             "value": 339,
             "unit": "ns/op\t      49 B/op\t       2 allocs/op",
             "extra": "3309135 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "25108519+Fenny@users.noreply.github.com",
+            "name": "Fenny",
+            "username": "Fenny"
+          },
+          "committer": {
+            "email": "25108519+Fenny@users.noreply.github.com",
+            "name": "Fenny",
+            "username": "Fenny"
+          },
+          "distinct": true,
+          "id": "7c0acacadb0e036660293523f5de125adfc58019",
+          "message": "⏲ Correct year",
+          "timestamp": "2020-07-06T17:45:13+02:00",
+          "tree_id": "c8d0a9d5aa8483b017fe937d659d9f5c8a6653c2",
+          "url": "https://github.com/Fenny/fiber/commit/7c0acacadb0e036660293523f5de125adfc58019"
+        },
+        "date": 1594050354982,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_Middleware_Compress",
+            "value": 306,
+            "unit": "ns/op\t      96 B/op\t       2 allocs/op",
+            "extra": "3891619 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_Favicon",
+            "value": 102,
+            "unit": "ns/op\t       1 B/op\t       1 allocs/op",
+            "extra": "11616666 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_Logger",
+            "value": 762,
+            "unit": "ns/op\t     236 B/op\t       3 allocs/op",
+            "extra": "1535029 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_Recover",
+            "value": 103,
+            "unit": "ns/op\t       1 B/op\t       1 allocs/op",
+            "extra": "11522022 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_RequestID",
+            "value": 277,
+            "unit": "ns/op\t      49 B/op\t       2 allocs/op",
+            "extra": "4259722 times\n2 procs"
           }
         ]
       }
